@@ -9,26 +9,29 @@ importers:
   .:
     dependencies:
       better-sqlite3:
-        specifier: ^11.10.0
+        specifier: 11.10.0
         version: 11.10.0
       fastify:
-        specifier: ^5.4.0
+        specifier: 5.4.0
         version: 5.4.0
       knex:
-        specifier: ^3.1.0
+        specifier: 3.1.0
         version: 3.1.0(better-sqlite3@11.10.0)
+      zod:
+        specifier: ^3.25.67
+        version: 3.25.67
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
         version: 1.9.4
       '@types/node':
-        specifier: ^24.0.3
+        specifier: 24.0.3
         version: 24.0.3
       tsx:
-        specifier: ^4.20.3
+        specifier: 4.20.3
         version: 4.20.3
       typescript:
-        specifier: ^5.8.3
+        specifier: 5.8.3
         version: 5.8.3
 
 packages:
@@ -665,6 +668,9 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
+  zod@3.25.67:
+    resolution: {integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==}
+
 snapshots:
 
   '@biomejs/biome@1.9.4':
@@ -1213,3 +1219,5 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   wrappy@1.0.2: {}
+
+  zod@3.25.67: {}

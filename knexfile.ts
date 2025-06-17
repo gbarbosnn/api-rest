@@ -1,17 +1,17 @@
-import type { Knex } from 'knex';
+import type { Knex } from "knex";
 
 const config: { [key: string]: Knex.Config } = {
-  development: {
-    client: 'better-sqlite3',
-    connection: {
-      filename: './dev.sqlite3',
-    },
-    useNullAsDefault: true,
-    migrations: {
-      directory: './src/database/migrations',
-      extension: 'ts',
-    },
-  },
+	development: {
+		client: "better-sqlite3",
+		connection: {
+			filename: "./db/dev.sqlite3",
+		},
+		useNullAsDefault: true,
+		migrations: {
+			directory: "./db/migrations",
+			extension: "ts",
+		},
+	},
 };
 
 export default config;

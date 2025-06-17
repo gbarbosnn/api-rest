@@ -1,4 +1,4 @@
-import knexFn from 'knex';
-import config from '../knexfile';
+import knexFn from "knex";
+import config from "../knexfile";
 
-export const knex = knexFn(config);
+export const knex = knexFn(config.development);
